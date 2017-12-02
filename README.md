@@ -9,6 +9,8 @@ imagesnap
 ```
 brew install imagesnap
 ```
+Or
+Install manually as described in documentation for [imagesnap](https://github.com/rharder/imagesnap)
 
 ## Usage
 
