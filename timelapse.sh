@@ -16,8 +16,9 @@ mkdir "${rootPath}/webcam"
 while :; do
   dateStr="$(date +%y%m%d%H%M%S)"
   screencapture -x "${rootPath}/screen/screenshot-${dateStr}.jpg"
-  imagesnap -q "${rootPath}/webcam/webcam-${dateStr}.jpg"
-  # sleep for 1 minute before taking the next snapshot
-  sleep 60 
+  wait $!
+  imagesnap -q -w 0.5 "${rootPath}/webcam/webcam-${dateStr}.jpg"
+  wait $!
+  sleep 60
 done
 

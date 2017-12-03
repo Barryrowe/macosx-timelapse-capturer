@@ -1,2 +1,4 @@
 capture
 .DS_Store
+*.jpg
+*.png
