@@ -17,6 +17,7 @@ while :; do
   dateStr="$(date +%y%m%d%H%M%S)"
   screencapture -x "${rootPath}/screen/screenshot-${dateStr}.jpg"
   wait $!
+  sleep 2
   imagesnap -q -w 0.5 "${rootPath}/webcam/webcam-${dateStr}.jpg"
   wait $!
   sleep 60
