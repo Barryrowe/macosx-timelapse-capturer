@@ -4,14 +4,20 @@ This script will generate screenshots and webcam images on a 1 minute interval. 
 
 ## Dependencies
 
-imagesnap
+1. imagesnap
 
-```
-brew install imagesnap
-```
-Or
-Install manually as described in documentation for [imagesnap](https://github.com/rharder/imagesnap)
+    ```
+    brew install imagesnap
+    ```
+    Or
+    Install manually as described in documentation for [imagesnap](https://github.com/rharder/imagesnap)
 
+2. ffmpeg
+
+    ```
+    brew install ffmpeg
+    ```
+        
 ## Usage
 
 1. Change into the directory containing the repo
