@@ -40,5 +40,5 @@ This script will generate screenshots and webcam images on a 1 minute interval. 
 
 ## Output
 
-The output files will be under `./capture/screen` and `./capture/webcam`. They will be named with date stamps like `screenshot-ymdHMS.jpg` and `webcam-ymdHMS.jpg`
+The output files will be under `./capture/screen` and `./capture/webcam`. They will be named with date stamps like `screenshot-ymdHMS.png` and `webcam-ymdHMS.jpg`
 
