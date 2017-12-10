@@ -18,7 +18,7 @@ while true; do
   imagesnap -q -w 2 "${rootPath}/webcam/webcam-${dateStr}.jpg"
   wait $!
   
-  screencapture -x "${rootPath}/screen/screenshot-${dateStr}.jpg"
+  screencapture -x "${rootPath}/screen/screenshot-${dateStr}.png"
   wait $!
   sleep 60 
 done
