@@ -4,9 +4,9 @@ This script will generate screenshots and webcam images on a 1 minute interval. 
 
 ## Dependencies
 
-    >_NOTE: if you do not have [homebrew](https://brew.sh) I recommend it, but_
+  NOTE: if you do not have [homebrew](https://brew.sh) I recommend it for installing these dependencies
 
-1. imagesnap
+1. [imagesnap](http://iharder.sourceforge.net/current/macosx/imagesnap/)
 
     ```
     brew install imagesnap
@@ -14,7 +14,7 @@ This script will generate screenshots and webcam images on a 1 minute interval. 
     Or
     Install manually as described in documentation for [imagesnap](https://github.com/rharder/imagesnap)
 
-2. ffmpeg
+2. [ffmpeg](https://www.ffmpeg.org/)
 
     ```
     brew install ffmpeg
