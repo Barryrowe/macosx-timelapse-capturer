@@ -4,6 +4,8 @@ This script will generate screenshots and webcam images on a 1 minute interval. 
 
 ## Dependencies
 
+    >_NOTE: if you do not have [homebrew](https://brew.sh) I recommend it, but_
+
 1. imagesnap
 
     ```
@@ -50,4 +52,14 @@ The output files will be under `./capture/screen` and `./capture/webcam`. They w
     ./create-movies.sh
     ```
 
-2. Once you've created the source movie files, you can combine them into a Picture-in-Picture movie with the `combine.sh` script. It is setup to put the webcam overlaid in the bottom-right corner with a resolution of 960x540, and leave the main video the original resolution.
+2. Once you've created the source movie files, you can combine them into a Picture-in-Picture movie with the `combine.sh` script. It is setup to put the webcam overlaid in the bottom-right corner with a resolution of 960x540, and leave the main video the original resolution. You can optionally provide an mp3 for audio.
+
+    ```
+    ./combine.sh /path/to/your/audio.mp3
+    ```
+
+    Or no audio
+
+    ```
+    ./combine.sh
+    ```
